@@ -1,0 +1,65 @@
+#figura {
+    align-items: center;
+    width: 80px; height: 150px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.margen {
+    margin-left: 87px;
+}
+
+header {
+    text-align: center;
+}
+
+.titulos {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: sans-serif;
+}
+
+#contenedor {
+    margin: 5rem;
+}
+
+.fechas {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.datos {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #005677;
+    color: white;
+    font-family: sans-serif;
+}
+
+#margen-footer {
+    margin: 2px;
+}
+
+footer img {
+    margin: 0.5rem;
+  }
+
+.interlineado { 
+    font-size: 16px;
+    line-height: 22px;
+}
