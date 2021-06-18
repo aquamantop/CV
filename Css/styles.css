@@ -25,7 +25,7 @@ li {
 header {
     text-align: center;
     background-color: #0F1021;
-    background-image: url("/Root/Img/Katana.png");
+    background-image: url("/Img/Katana.png");
     background-size: cover;
     background-position: center -500px;
     background-attachment: fixed;
