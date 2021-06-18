@@ -1,7 +1,7 @@
 #figura {
     width: 180px; height: 150px;
     position: relative;
-    left: -680px;
+    left: -87vh;
     top: 15px
 }
 
@@ -19,15 +19,15 @@ li {
 }
 
 .margen {
-    margin-left: 87px;
+    margin-left: 12vh;
 }
 
 header {
     text-align: center;
     background-color: #0F1021;
-    background-image: url("/Img/Katana.png");
+    background-image: url("../Img/Katana.png");
     background-size: cover;
-    background-position: center -500px;
+    background-position: center -60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
