@@ -1,12 +1,8 @@
 #figura {
-    width: 250px; height: 150px;
+    width: 180px; height: 150px;
     position: relative;
-    left: -600px;
-}
-
-h1 {
-    font-family: arial, sans-serif;
-    font-size: 24px;
+    left: -680px;
+    top: 15px
 }
 
 h2 {
@@ -27,10 +23,9 @@ li {
 }
 
 header {
-    font-family: arial, sans-serif;
     text-align: center;
     background-color: #0F1021;
-    background-image: url("/Img/Katana.png");
+    background-image: url("/Root/Img/Katana.png");
     background-size: cover;
     background-position: center -500px;
     background-attachment: fixed;
@@ -44,7 +39,6 @@ body {
 .titulos {
     background-color: #0848f87c;
     color: #ffffff7c;
-    font-family: sans-serif;
 }
 
 #contenedor {
@@ -52,13 +46,11 @@ body {
 }
 
 .fechas {
-    font-family: arial, sans-serif;
     font-weight: bold;
     color: #ffffff7c;
 }
 
 .datos {
-    font-family: arial, sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -70,7 +62,6 @@ footer {
     align-items: center;
     background-color: #0848f87c;
     color: white;
-    font-family: arial, sans-serif;
 }
 
 #margen-footer {
@@ -84,4 +75,15 @@ footer img {
 .interlineado { 
     font-size: 16px;
     line-height: 22px;
+}
+
+section {
+    text-align: center;
+    color: rgb(235, 252, 0);
+    font-size: 30px;
+}
+
+.secundaria {
+    margin-left: 100vh;
+    color: rgba(111, 0, 255, 0.596);
 }
