@@ -1,10 +1,11 @@
 #figura {
-    align-items: center;
-    width: 80px; height: 150px;
+    width: 250px; height: 150px;
+    position: relative;
+    left: -600px;
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-size: 24px;
 }
 
@@ -13,17 +14,36 @@ h2 {
     line-height: 24px;
 }
 
+span {
+    color: #ffffff7c;
+}
+
+li {
+    color: #ffffff7c;
+}
+
 .margen {
     margin-left: 87px;
 }
 
 header {
+    font-family: arial, sans-serif;
     text-align: center;
+    background-color: #0F1021;
+    background-image: url("/Img/Katana.png");
+    background-size: cover;
+    background-position: center -500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
+body {
+    background-color: #0F1021
+} 
+
 .titulos {
-    background-color: #C4C4C4;
-    color: #005677;
+    background-color: #0848f87c;
+    color: #ffffff7c;
     font-family: sans-serif;
 }
 
@@ -32,11 +52,13 @@ header {
 }
 
 .fechas {
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-weight: bold;
+    color: #ffffff7c;
 }
 
 .datos {
+    font-family: arial, sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -46,9 +68,9 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #005677;
+    background-color: #0848f87c;
     color: white;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
 }
 
 #margen-footer {
