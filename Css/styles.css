@@ -16,6 +16,10 @@
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+body{
+    font-family: 'Roboto Mono';
+}
+
 .cabecera {
     text-align: center;
     background-color: #0F1021;
@@ -24,18 +28,22 @@
     background-position: center -60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    font-family: 'Roboto Mono';
+    margin-top: -3vh;
+    height: 30vh;
+    position: relative
 }
 
 #figura {
     width: 180px; height: 150px;
-    position: relative;
-    left: -87vh;
-    top: 15px
+    position: absolute;
+    left: 9vh;
+    top: 6vh
 }
 
 h1 {
-    font-family: 'Roboto Mono';
+    position: absolute;
+    width: 100%;
+    top: 21vh;
     background-color: #0848f87c;
     color: #ffffff7c;
     font-size: 38px;
@@ -43,7 +51,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto Mono';
     font-size: 20px;
     background-color: #0848f87c;
     color: #ffffff7c;
@@ -61,20 +68,20 @@ h2 {
 }
 
 .datos {
-    font-family: 'Roboto Mono';
     font-weight: bold;
     color: #ffffff7c;
     font-size: 18px;
     line-height: 28px;
 }
 
-footer {
+#pie {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #0848f87c;
     color: white;
+    margin-bottom: -2vh;
 }
 
 #margen-footer {
@@ -87,30 +94,39 @@ footer img {
 
 .secundaria {
     text-align: center;
-    color: rgba(111, 0, 255, 0.596);
+    color: rgba(0, 255, 34, 0.973);
     font-size: 3vh;
+    font-weight: 1000px;
 }
 
-section {
-    font-family: 'Bebas Neue';
-    text-align: center;
-    color: rgb(210, 50, 216);
-    font-size: 30px;
-}
+/* SOBRE MI */
 
 .cuerpo2 {
-    background-color: #0D1021;
     background-image: url("../Img/Gojo.jpg");
     background-repeat: no-repeat;
     background-position: center top;
 } 
 
 .cabecera2 {
-    text-align: center;
-    background-color: #0F1021;
-    background-size: cover;
-    background-position: center -60vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: 'Roboto Mono';
+    font-size: 10vh;
+    color: #080cf8;
+    position: fixed;
+    left: 70vh;
+    top: -10vh;
+    
+}
+
+#main {
+    font-size: 4vh;
+    color: #080cf8;
+    position: absolute;
+    left: 87vh;
+    top: 30vh
+}
+
+#pie2 {
+    font-size: 4vh;
+    position: absolute;
+    top: 100vh;
+    left: 95vh
 }
