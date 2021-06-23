@@ -28,30 +28,30 @@ body{
     background-position: center -60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: -6vh;
-    height: 30vh;
+    margin-top: -7.5vh;
+    height: 35vh;
     position: relative
 }
 
 #figura {
     width: 180px; height: 150px;
     position: absolute;
-    left: 9vh;
+    left: 17vh;
     top: 6vh;
 }
 
 h1 {
     position: relative;
     width: 100%;
-    top: 24vh;
+    top: 28.6vh;
     background-color: #0848f87c;
     color: #ffffff;
-    font-size: 38px;
+    font-size: 32px;
     text-align: center;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     background-color: #0848f87c;
 }
 
@@ -75,17 +75,18 @@ h2 {
 
 .segundaLinea {
     position: relative;
-    left: 14vh
+    left: 17.5vh
 }
 
 #pie {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #0848f87c;
     color: white;
-    margin-bottom: -2vh;
+    margin-bottom: -1vh;
 }
 
 .espacio {
@@ -93,7 +94,6 @@ h2 {
 }
 
 #margen-footer {
-    margin: 2px;
     padding-left: 1vh;
     padding-right: 1vh;
 }
@@ -104,9 +104,9 @@ footer img {
 
 .secundaria {
     position: absolute;
-    bottom: -22vh;
-    left: 93vh;
-    font-size: 2vh;
+    bottom: 6vh;
+    left: 95vh;
+    font-size: 16px;
     border: solid 1px rgba(255, 255, 255, 0.438);
     background-color: rgba(255, 255, 255, 0.438);
 }
