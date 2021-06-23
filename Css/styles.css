@@ -104,11 +104,13 @@ footer img {
 
 .secundaria {
     position: absolute;
-    bottom: 6vh;
+    bottom: 8vh;
     left: 95vh;
     font-size: 16px;
-    border: solid 1px rgba(255, 255, 255, 0.438);
-    background-color: rgba(255, 255, 255, 0.438);
+    padding: 1vh;
+    background-color: #00eeff;
+    border-radius: 4vh;
+    box-shadow: 1vh 1vh 2vh 0.5vh rgba(0, 0, 0, 0.774);
 }
 
 /* SOBRE MI */
@@ -138,8 +140,10 @@ footer img {
 #pie2 {
     font-size: 4vh;
     position: absolute;
-    top: 100vh;
+    top: 90vh;
     left: 95vh;
-    border: solid 1px #d4f808a4;
-    background-color: #d4f808a4;
+    padding: 1vh;
+    background-color: #08f89caf;
+    border-radius: 4vh;
+    box-shadow: 1vh 1vh 2vh 0.5vh rgba(0, 0, 0, 0.774);
 }
