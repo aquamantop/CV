@@ -112,10 +112,10 @@ footer img {
 
 .secundaria {
     color: black;
-    position: absolute;
-    bottom: 8vh;
-    left: 95vh;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
+    margin: 0% 46%;
     padding: 1vh;
     background-color: #00eeff;
     border-radius: 4vh;
