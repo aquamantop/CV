@@ -49,7 +49,6 @@ h1 {
     width: 100%;
     top: 28.6vh;
     background-color: #0848f87c;
-    color: #ffffff;
     font-size: 32px;
     text-align: center;
 }
@@ -68,7 +67,6 @@ h2 {
 
 #contenedor {
     margin: 8rem;
-    color: #ffffff;
 }
 
 .datos {
@@ -93,7 +91,6 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #0848f87c;
-    color: white;
     margin-bottom: -1vh;
 }
 
@@ -110,19 +107,7 @@ footer img {
     margin: 0.4rem;
 }
 
-.secundaria {
-    color: black;
-    position: absolute;
-    bottom: 8vh;
-    left: 95vh;
-    font-size: 16px;
-    padding: 1vh;
-    background-color: #00eeff;
-    border-radius: 4vh;
-    box-shadow: 1vh 1vh 2vh 0.5vh rgba(0, 0, 0, 0.774);
-}
-
-/* SOBRE MI */
+/* Sobre mi */
 
 #cuerpo2 {
     background-image: url("../Img/Gojo.jpg");
@@ -133,7 +118,6 @@ footer img {
 
 #cabecera2 {
     font-size: 10vh;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     border: none 0rem black;
@@ -143,7 +127,6 @@ footer img {
 
 #descripcion {
     font-size: 4vh;
-    color: #ffffff;
     text-shadow: 0.1rem 0.1rem rgb(0, 0, 0);
     border: rgb(3, 165, 170) 5px solid;
     box-shadow: 0rem 0rem 1rem 1rem black, inset 0.2rem 0.2rem 0.2rem black;
@@ -152,21 +135,6 @@ footer img {
     align-items: center;
     justify-content: center;
     margin: 3vh 6vw;
-}
-
-#pie2 {
-    font-size: 4vh;
-    margin-left: 46vw;
-    margin-right: 46vw;
-    margin-top: 26.5vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 100%;
-    padding: 0.2rem;
-    background-color: #08f89cad;
-    border-radius: 5rem;
-    box-shadow: 0.2rem 0.2rem 0.8rem 0.5rem rgba(0, 0, 0, 0.774);
 }
 
 #encuesta {
