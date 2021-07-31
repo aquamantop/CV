@@ -1,14 +1,50 @@
-/* Fuentes */
+/* Estructura base */
 @font-face {
-    font-family: 'Hahmlet';
+    font-family: 'Cutive Mono';
     font-style: normal;
     font-display: swap;
-    src: url(https://fonts.gstatic.com/s/hahmlet/v1/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKOdjrbsO-aFRnP8Ks273MBz5fksRuprycJSBlJ8c.2.woff) format('woff');
-    unicode-range: U+d723-d728, U+d72a-d733, U+d735-d748, U+d74a-d74f, U+d752-d753, U+d755-d757, U+d75a-d75f, U+d762-d764, U+d766-d768, U+d76a-d76b, U+d76d-d76f, U+d771-d787, U+d789-d78b, U+d78d-d78f, U+d791-d797, U+d79a, U+d79c, U+d79e-d7a3, U+f900-f909, U+f90b-f92e;
+    src: url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RMTm6o39ucNvc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Cutive Mono', monospace;
 }
 
-* {
-    font-family: 'Hahmlet';
+/* Encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
 }
+#perfil {
+    border: solid white 0.3vh;
+    border-radius: 50%;
+    width: 10%;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.616);
+    color: rgb(255, 255, 255);
+    padding: 0.5%;
+    margin: 1%;
+    text-align: center;
+    width: 100%;
+}
+/* Fin de encabezado */
+
+/* Cuerpo */
+
+
+
 
 /* Sobre mi */
