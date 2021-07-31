@@ -10,12 +10,13 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 body {
     font-family: 'Cutive Mono', monospace;
+}
+a {
+    text-decoration: none;
 }
 
 /* Encabezado */
@@ -25,25 +26,62 @@ header {
     flex-direction: column;
     align-items: center;
     font-weight: bold;
-    font-size: 2rem;
 }
 #perfil {
-    border: solid white 0.3vh;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
-    width: 10%;
+    border: 0.2rem solid rgb(255, 255, 255);
+    margin: 3%;
 }
 h1 {
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: rgba(255, 255, 255, 0.308);
     color: rgb(255, 255, 255);
-    padding: 0.5%;
-    margin: 1%;
     text-align: center;
     width: 100%;
 }
 /* Fin de encabezado */
 
 /* Cuerpo */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+    ". Datos-personales ."
+    ". Formacion ."
+    ". Experiencia .";
+}
+.Datos-personales { grid-area: Datos-personales; }
 
+.Formacion { grid-area: Formacion; }
+
+.Experiencia { grid-area: Experiencia; }
+
+h2 {
+    font-weight: bold;
+}
+
+
+/* Pie de pagina */
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+footer span {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer a {
+    padding-left: 1%;
+    font-size: 1.5rem;
+}
 
 
 
