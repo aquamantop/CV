@@ -1,144 +1,88 @@
+/* Estructura base */
 @font-face {
-    font-family: 'Roboto Mono';
+    font-family: 'Cutive Mono';
     font-style: normal;
-    font-weight: 100;
     font-display: swap;
-    src: url(https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vu_SeW-AJi8SJQtQ4Y.woff) format('woff');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-@font-face {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9WdhyyTh89ZNpQ.woff2) format('woff2');
+    src: url(https://fonts.gstatic.com/s/cutivemono/v9/m8JWjfRfY7WVjVi2E-K9H6RMTm6o39ucNvc.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Cutive Mono', monospace;
+}
 a {
     text-decoration: none;
-} 
-
-body{
-    font-family: 'Roboto Mono';
 }
 
-.cabecera {
-    text-align: center;
-    background-color: #0F1021;
-    background-image: url("../Img/Katana.png");
-    background-size: cover;
-    background-position: center -60vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: -7.5vh;
-    height: 35vh;
-    position: relative
+/* Encabezado */
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
 }
-
-#figura {
-    width: 180px; height: 150px;
-    position: absolute;
-    left: 17vh;
-    top: 6vh;
+#perfil {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 0.2rem solid rgb(255, 255, 255);
+    margin: 3%;
 }
-
 h1 {
-    position: relative;
-    width: 100%;
-    top: 28.6vh;
-    background-color: #0848f87c;
-    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.308);
+    color: rgb(255, 255, 255);
     text-align: center;
+    width: 100%;
 }
+/* Fin de encabezado */
+
+/* Cuerpo */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+    ". Datos-personales ."
+    ". Formacion ."
+    ". Experiencia .";
+}
+.Datos-personales { grid-area: Datos-personales; }
+
+.Formacion { grid-area: Formacion; }
+
+.Experiencia { grid-area: Experiencia; }
 
 h2 {
-    font-size: 22px;
-    background-color: #0848f87c;
-}
-
-.cuerpo {
-    background-color: #0F1021;
-    background-image: url("../Img/pixeles.jpeg");
-    background-repeat: repeat-y;
-    background-size: cover;
-} 
-
-#contenedor {
-    margin: 8rem;
-}
-
-.datos {
     font-weight: bold;
-    font-size: 18px;
-    line-height: 40px;
 }
 
-.segundaLinea {
-    position: relative;
-    left: 17.5vh
-}
-.segundaLinea2 {
-    position: relative;
-    left: 27vh
-}
 
-#pie {
-    position: relative;
+/* Pie de pagina */
+footer {
+    background-color: rgb(0, 0, 0);
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #0848f87c;
-    margin-bottom: -1vh;
+    padding: 0.5rem;
+}
+footer span {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer a {
+    padding-left: 1%;
+    font-size: 1.5rem;
 }
 
-.espacio {
-    padding-right: 2vh;
-}
 
-#margen-footer {
-    padding-left: 1vh;
-    padding-right: 1vh;
-}
-
-footer img {
-    margin: 0.4rem;
-}
 
 /* Sobre mi */
-
-#cuerpo2 {
-    background-image: url("../Img/Gojo.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-color: black;
-} 
-
-#cabecera2 {
-    font-size: 10vh;
-    display: flex;
-    justify-content: center;
-    border: none 0rem black;
-    padding: 1rem;
-    text-shadow: 0.1rem 0.1rem rgb(0, 0, 0);
-}
-
-#descripcion {
-    font-size: 4vh;
-    text-shadow: 0.1rem 0.1rem rgb(0, 0, 0);
-    border: rgb(3, 165, 170) 5px solid;
-    box-shadow: 0rem 0rem 1rem 1rem black, inset 0.2rem 0.2rem 0.2rem black;
-    padding: 0.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3vh 6vw;
-}
-
-#encuesta {
-    text-align: center;
-    color: rgb(0, 255, 13);
-    font-size: 2rem;
-}
