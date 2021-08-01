@@ -18,6 +18,7 @@ body {
 a {
     text-decoration: none;
 }
+/* Fin de estructura */
 
 /* Encabezado */
 header {
@@ -43,6 +44,7 @@ h1 {
 /* Fin de encabezado */
 
 /* Cuerpo */
+/* Seccion principal */
 #contenedor {
     display: flex;
     width: 100%;
@@ -54,14 +56,21 @@ h1 {
     padding: 2%;
     text-align: center;
 }
+/* Fin de seccion */
 
 /* Redes */
+#redes {
+    align-self: center;
+    margin: 1rem;
+}
 .contacto {
     color: white;
     font-size: 2rem;
+    padding: 0.5rem;
 }
 .contacto:hover {
-    color: rgb(0, 255, 76);
+    color: #FFD700;
+    padding: 1rem;
 }
 #ig {
     background-color: #e95950;
@@ -78,6 +87,23 @@ h1 {
 #gh {
     background-color: rgb(0, 0, 0);
 }
+/* Fin de redes */
+
+/* Boton con link */
+#sobreMi {
+    text-align: center;
+    color: white;
+}
+button {
+    background-color: black;
+    padding: 0.5rem;
+    margin: 2vh 41vw;
+    border-radius: 1rem;
+}
+button #sobreMi:hover {
+    color: #FFD700;
+}
+/* Fin del boton */
 
 /* Pie de pagina */
 footer {
@@ -96,5 +122,6 @@ footer {
     color: rgb(128, 230, 243);
 }
 #nick:hover {
-    color: rgb(247, 91, 91);
+    color: #FFD700;
 }
+/* Fin de pie de pagina */
