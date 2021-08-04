@@ -33,7 +33,6 @@ header {
     height: 25%;
     border-radius: 50%;
     border: 0.2rem solid rgb(255, 255, 255);
-    box-shadow: -0.3rem -0.5rem 1rem 0.1rem #FFD700, 0.3rem 0.5rem 1rem 0.1rem #e95950;
     margin: 3%;
 }
 h1 {
@@ -92,13 +91,13 @@ h1 {
     text-align: center;
     color: white;
 }
-button {
+.boton {
     background-color: black;
     padding: 0.5rem;
     margin: 2vh 41vw;
     border-radius: 1rem;
 }
-button #sobreMi:hover {
+.boton #sobreMi:hover {
     color: #FFD700;
 }
 /* Fin del boton */
@@ -125,11 +124,32 @@ footer {
 /* Fin de pie de pagina */
 
 /* Media queries */
+/* Media min */
 @media (min-width: 1024px) {
     .contacto:hover {
         color: #FFD700;
         transform: scale(2,2);
         padding: 2vh 2vw;
         box-shadow: 0.5rem 0.5rem 1rem 0.2rem #000;
+    }
+    .boton {
+            margin: 2vh 45vw;
+        }
+    }
+@media (min-width: 2560px) {
+    .boton {
+        margin: 2vh 48vw;
+    }
+}
+
+/* Media max */
+@media (max-width: 385px) {
+    .boton {
+        margin: 2vh 38vw;
+    }
+}
+@media (min-width: 2560px) {
+    .boton {
+        margin: 2vh 48vw;
     }
 }
