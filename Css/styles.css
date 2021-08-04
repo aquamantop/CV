@@ -124,10 +124,26 @@ footer {
 /* Fin de pie de pagina */
 
 /* Sobre mi */
-#contenedorRepo {
-    
+header p {
+    color: white;
 }
-
+#contenedorRepo {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.repos {
+    display: inline-flex;
+}
+.tamañoRepo {
+    margin: 1vw;
+    width: 50vw;
+    height: 50vh;
+}
+#especial {
+    margin-left: 25vw;
+}
 
 
 /* Media queries */
