@@ -123,10 +123,24 @@ footer {
 }
 /* Fin de pie de pagina */
 
-/* Sobre mi */
+/* Pagina de repositorios */
+/* Encabezado */
 header p {
     color: white;
 }
+
+/* Descripcion mia */
+#descripcion {
+    text-align: center;
+    margin: 1vh 25vw;
+    color: #fff;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(98,98,98,1) 40%, rgba(153,153,153,1) 68%, rgba(255,255,255,0.7847514005602241) 87%);   
+    border-radius: 0.3rem;
+    text-shadow: black 0.1rem 0.1rem;
+}
+
+/* Repositorios */
 #contenedorRepo {
     display: flex;
     flex-direction: column;
