@@ -136,7 +136,7 @@ header p {
 #descripcion {
     font-weight: bold;
     text-align: center;
-    margin: 1vh 25vw;
+    margin: 2vh 25vw;
     color: #fff;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgb(32, 32, 32) 12%, rgba(98,98,98,1) 40%, rgba(153,153,153,1) 68%, rgba(216, 216, 216, 0.785) 87%);   
@@ -169,6 +169,21 @@ header p {
 #footer2 {
     color: #000;
     background: #fff;
+}
+
+/* Boton Volver */
+#inicio {
+    text-align: center;
+    color: #000;
+}
+.boton2 {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2vh 47vw;
+    border-radius: 1rem;
+}
+.boton2 #inicio:hover {
+    color: #FFD700;
 }
 
 /* Media queries */
@@ -219,5 +234,11 @@ header p {
 @media (max-width: 550px) {
     #descripcion {
         margin: 5vh 10vw;
+    }
+    .boton2 {
+        margin: 2vh 43vw;
+    }
+    .tamañoRepo {
+        height: 35vh;
     }
 }
