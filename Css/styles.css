@@ -233,12 +233,12 @@ header p {
 }
 @media (max-width: 550px) {
     #descripcion {
-        margin: 5vh 10vw;
+        margin: 5vh 5vw;
     }
     .boton2 {
         margin: 2vh 43vw;
     }
     .tamañoRepo {
-        height: 35vh;
+        height: 30vh;
     }
 }
