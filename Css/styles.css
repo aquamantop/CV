@@ -132,7 +132,7 @@ header p {
     text-align: center;
 }
 
-/* Descripcion mia */
+/* Descripcion mi */
 #descripcion {
     font-weight: bold;
     text-align: center;
@@ -148,11 +148,9 @@ header p {
 #fondo2 {
     background: black;
 }
-
 #contenedorRepo {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 .repos {
@@ -198,8 +196,28 @@ header p {
         margin: 2vh 38vw;
     }
 }
-@media (min-width: 2560px) {
-    .boton {
-        margin: 2vh 48vw;
+@media (max-width: 768px) {
+    #contenedorRepo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .repos {
+        display: block;
+    }
+    .tamañoRepo {
+        margin: 1vw 10vw;
+        width: 80vw;
+        height: 50vh;
+    }
+    #especial {
+        margin-left: 1vw;
+    }
+}
+@media (max-width: 550px) {
+    #descripcion {
+        margin: 5vh 10vw;
     }
 }
