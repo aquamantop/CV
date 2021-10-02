@@ -54,6 +54,10 @@ h1 {
 .secciones {
     padding: 2%;
     text-align: center;
+    line-height : 3vw;
+}
+.cajaSpan{
+    border: solid 1px black;
 }
 
 /* Redes */
@@ -232,6 +236,9 @@ header p {
     }
 }
 @media (max-width: 550px) {
+    .secciones {
+        line-height : 10vw;
+    }
     #descripcion {
         margin: 5vh 5vw;
     }
