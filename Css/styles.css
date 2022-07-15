@@ -148,6 +148,11 @@ header p {
 }
 
 /* Repositorios */
+#mainRepo{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
 #fondo2 {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,131,131,1) 50%, rgba(61,61,61,1) 100%);
@@ -158,17 +163,44 @@ header p {
     justify-content: space-around;
 }
 .repos {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: 3vh 25vw;
 }
 .tamañoRepo {
     border-radius: 1vh;
-    margin: 1vw;
     width: 47vw;
     height: 50vh;
 }
-#especial {
-    margin-left: 25vw;
+.descripcionRepo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #FFD700;
+    text-shadow: black 0.01rem 0.01rem;
 }
+#aclaracion{
+    text-align: center;
+    color: #000000;
+    text-shadow: black 0.01rem 0.01rem;
+}
+.codigo{
+    background-color: #fff;
+    padding: 1rem;
+    width: 4.5rem;
+    margin-top: 16px;
+    margin-left: 44%;
+    border-radius: 1rem;
+}
+.codigo a{
+    text-decoration: none;
+    color: #000;
+}
+.codigo a:hover {
+    color: #FFD700;
+}
+
 
 /* Boton Volver */
 #inicio {
@@ -196,8 +228,8 @@ header p {
     }
     .boton {
             margin: 2vh 45vw;
-        }
     }
+}
 @media (min-width: 2560px) {
     .boton {
         margin: 2vh 48vw;
@@ -211,6 +243,12 @@ header p {
     }
 }
 @media (max-width: 768px) {
+    .repos {
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+        margin: 1vh 0vw;
+    }
     #contenedorRepo {
         display: flex;
         flex-direction: column;
@@ -218,16 +256,10 @@ header p {
         align-items: center;
         flex-wrap: wrap;
     }
-    .repos {
-        display: block;
-    }
     .tamañoRepo {
         margin: 1vw 10vw;
         width: 80vw;
         height: 50vh;
-    }
-    #especial {
-        margin-left: 1vw;
     }
 }
 @media (max-width: 550px) {
@@ -235,7 +267,7 @@ header p {
         line-height : 10vw;
     }
     #descripcion {
-        margin: 5vh 5vw;
+        margin: 3vh 5vw;
     }
     .boton2 {
         margin: 2vh 43vw;
