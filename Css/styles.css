@@ -114,11 +114,11 @@ footer {
 #copyright {
     padding: 0.5rem;
 }
-#nick {
+.link-footer {
     color: rgb(128, 230, 243);
     padding: 0rem 0.5rem;
 }
-#nick:hover {
+.link-footer:hover {
     color: #FFD700;
 }
 #espacio {
